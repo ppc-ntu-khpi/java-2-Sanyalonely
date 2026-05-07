@@ -5,8 +5,9 @@
 public class TestResult {
 
     public static void main(String[] args) {
-
-        int R=10;
-        System.out.println("Area of a circle for R="+R+"m is "+Exercise.Calculate(R)+"m"+'\u00B2');
+        int a = 120;
+        int b = 180;
+        
+    System.out.println("Спільні прості дільники для " + a + " та " + b + " це: " + Exercise.Calculate(a, b));
     }
 }
